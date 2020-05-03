@@ -3,7 +3,7 @@
 		"ecmaVersion": 8,
 		"sourceType": "script"
 	},
-	"extends": ["google", "prettier"],
+	"extends": ["eslint:recommended", "google", "prettier"],
 	"env": {
 		"node": true
 	},
