@@ -1,0 +1,14 @@
+{
+	"parserOptions": {
+		"ecmaVersion": 8,
+		"sourceType": "script"
+	},
+	"extends": ["google", "prettier"],
+	"env": {
+		"node": true
+	},
+	"rules": {
+		"object-curly-spacing": ["error", "always"],
+		"no-undef": "error"
+	}
+}
